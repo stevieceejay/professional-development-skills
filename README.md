@@ -60,8 +60,4 @@ This project demonstrates the power of **human + AI partnership**. By combining 
 
 ---
 
-## Getting Started
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+
