@@ -45,3 +45,8 @@ if __name__ == "__main__":
     with app.app_context():
         db.create_all()  # Create tables if they don't exist
     app.run(debug=True)
+
+
+new_user = User(email="test@example.com", password="password123")
+db.session.add(new_user)
+db.session.commit()
